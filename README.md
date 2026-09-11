@@ -4,6 +4,7 @@
 * [Home](#)
 * [Módulos](#)
 * [Contato](#)
+* [Guia de Equipamentos](#equipment-guide)
 
 ## Banner Principal
 
