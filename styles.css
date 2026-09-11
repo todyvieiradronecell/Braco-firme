@@ -63,6 +63,139 @@ section > p {
     margin-bottom: 2rem;
 }
 
+.student-area {
+    padding: 2rem 1rem;
+}
+
+.student-area h2 {
+    color: #c9a227;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.student-layout {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.student-main {
+    flex: 3;
+    min-width: 300px;
+}
+
+.video-player {
+    background-color: #1a1a1a;
+    border: 1px solid #c9a227;
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.video-placeholder {
+    width: 100%;
+    height: 250px;
+    background-color: #2a2a2a;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #c9a227;
+    margin-bottom: 1rem;
+}
+
+.video-player h3 {
+    color: #f0f0f0;
+    font-size: 1.3rem;
+}
+
+.material-tabs {
+    background-color: #1a1a1a;
+    border: 1px solid #c9a227;
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.tab-btn {
+    background-color: #2a2a2a;
+    color: #c9a227;
+    border: 1px solid #c9a227;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.tab-btn.active {
+    background-color: #c9a227;
+    color: #0d0d0d;
+}
+
+.tab-content {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.download-btn {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border: 1px solid #c9a227;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-btn:hover {
+    background-color: #c9a227;
+    color: #0d0d0d;
+}
+
+.lesson-sidebar {
+    flex: 1;
+    min-width: 200px;
+    background-color: #1a1a1a;
+    border: 1px solid #c9a227;
+    border-radius: 12px;
+    padding: 1.5rem;
+}
+
+.lesson-sidebar h4 {
+    color: #c9a227;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.lesson-sidebar ul {
+    list-style: none;
+}
+
+.lesson-sidebar li {
+    padding: 0.6rem 0.5rem;
+    color: #cccccc;
+    cursor: pointer;
+    border-bottom: 1px solid #2a2a2a;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 4px;
+}
+
+.lesson-sidebar li:hover {
+    color: #e6c84a;
+    background-color: #2a2a2a;
+}
+
+.lesson-sidebar li.active-lesson {
+    color: #c9a227;
+    font-weight: bold;
+    background-color: #2a2a2a;
+}
+
 .levels-container {
     display: flex;
     justify-content: center;
