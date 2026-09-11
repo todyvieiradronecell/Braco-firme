@@ -230,3 +230,80 @@ section > p {
     font-size: 1rem;
     line-height: 1.5;
 }
+
+.equipment-guide {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.equipment-guide h2 {
+    font-size: 2rem;
+    color: #c9a227;
+    margin-bottom: 2rem;
+}
+
+.equipment-guide .levels-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.equipment-guide .card {
+    background-color: #1a1a1a;
+    border: 1px solid #c9a227;
+    border-radius: 12px;
+    padding: 2rem;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.equipment-guide .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(201, 162, 39, 0.3);
+}
+
+.equipment-guide .card h3 {
+    color: #c9a227;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.equipment-guide .card p {
+    color: #cccccc;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.equipment-guide .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+    text-align: left;
+}
+
+.equipment-guide .card ul li {
+    padding: 0.4rem 0;
+    color: #f0f0f0;
+    border-bottom: 1px solid #2a2a2a;
+}
+
+.equipment-guide .card ul li:last-child {
+    border-bottom: none;
+}
+
+.equipment-guide .card button {
+    background-color: #c9a227;
+    color: #0d0d0d;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.equipment-guide .card button:hover {
+    background-color: #e6c84a;
+}
